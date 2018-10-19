@@ -345,7 +345,3 @@ client.on('message', message => {
 
 
  
-client.login(process.env.BOT_TOKEN);
-client.on('error' err => console.log(err.message));
-client.on('disconnect', err => {return;});
-client.on('reconnect',s => {return});
